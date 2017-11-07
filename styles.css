@@ -32,6 +32,7 @@ p {
     top: 45%;
 }
 
+<<<<<<< HEAD
 .nav img {
     opacity: .5;
 }
@@ -41,11 +42,14 @@ p {
     transition: 0.3s ease-in-out;
 }
 
+=======
+>>>>>>> origin/master
 .nav-left {
     position: fixed;
     left: 0px;
     top: 45%;
 }
+<<<<<<< HEAD
 
 .back {
     position: fixed;
@@ -67,3 +71,5 @@ p {
     opacity: 1;
     transition: .5 ease-in-out;
 }
+=======
+>>>>>>> origin/master
