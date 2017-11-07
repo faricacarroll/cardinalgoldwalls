@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 2.5em 5em;
+}
+
+.image {
+    position: inherit;
+    display: inline-block;
+    width: 45%;
+}
+
+img {
+    max-width: 35em;
+}
+
+.poem {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+}
+
+p {
+    font-family: 'Sumana', serif;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.nav-right {
+    position: fixed;
+    right: 0px;
+    top: 45%;
+}
+
+.nav img {
+    opacity: .5;
+}
+
+.nav img:hover {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-left {
+    position: fixed;
+    left: 0px;
+    top: 45%;
+}
+
+.back {
+    position: fixed;
+    right: 55px;
+    bottom: 45px;
+}
+
+.back a {
+    font-family: 'Sumana', serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    opacity: .5;
+}
+
+.back a:hover {
+    padding-bottom: -15px;
+    border-bottom: 1.5px solid #000;
+    opacity: 1;
+    transition: .5 ease-in-out;
+}
