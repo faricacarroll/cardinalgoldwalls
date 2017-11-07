@@ -1,0 +1,39 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 2.5em 5em;
+}
+
+.image {
+    position: inherit;
+    display: inline-block;
+    width: 45%;
+}
+
+img {
+    max-width: 35em;
+}
+
+.poem {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+}
+
+p {
+    font-family: 'Sumana', serif;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.nav-right {
+    position: fixed;
+    right: 0px;
+    top: 45%;
+}
+
+.nav-left {
+    position: fixed;
+    left: 0px;
+    top: 45%;
+}
